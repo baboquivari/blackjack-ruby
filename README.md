@@ -7,7 +7,7 @@ docker build .
 ```
 
 ```javascript
-docker run -it [image-id] bash
+docker run -it [image-id]
 ```
 
 ```javascript
