@@ -1,10 +1,8 @@
-FROM ruby
+FROM alpine
 
-WORKDIR /app
+RUN apk update
+RUN apk add ruby
 
 COPY . /app
 
-EXPOSE 80
-
 CMD ["ruby", "app/blackjack.rb"]
-
