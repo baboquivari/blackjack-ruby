@@ -1,3 +1,5 @@
+puts "WELCOME TO BLACKJACK! \n"
+
 # create a random deck, ignore suits, A is 1
 def generateDeck()
   deck = []
